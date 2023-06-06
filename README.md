@@ -19,7 +19,7 @@ Temos alguns entregáveis que vão nos ajudar a entender em que ponto você est�
 
 - Desenvolver uma API na linguagem de sua preferência  sem se preocupar com camada de persistência
 - Um Dockerfile para essa API para conseguirmos subí-la localmente.
-- Uma pipeline de integração contínua para essa API utilizando Github Actions ou algum outro de sua preferência.
+- Uma pipeline de CI para essa API utilizando Github Actions ou algum outro de sua preferência.
 - Subir a aplicação na AWS (provavelmente você terá que assinar uma conta free tier ou se aproveitar de limites gratuitos oferecidos pelo cloud provider).
 
 > **Warning**
@@ -27,7 +27,15 @@ Temos alguns entregáveis que vão nos ajudar a entender em que ponto você est�
 
 
 ## Entregável 2
-  - 
+  - Criar o Terraform para sua Aplicacao
+  - Criar a Pipeline de CD para essa API utilizando a tecnologia adotada no entregável anterior
+  - Criar um relatório da entrega sobre o motivo da escolha de determinada tecnologia 
+
+## Entregável 3
+ - Configurar o monitoramento da Aplicacao utilize a tecnologia que preferir, definindo alertas importantes 
+ - Torne sua Aplicacao clusterizada
+ - Disponha do monitoramento do Cluster
+
 
 **PLUS:**
 Configure o deploy utilizando uma tecnologia provida pela AWS
@@ -43,12 +51,12 @@ sendo elas:
  - [ ] AWS EKS
  - [ ] Golang
  - [ ] CodeDeploy
+ - [ ] Cloudwatch
 
 Estas sao as Tecnologias que usamos, mas sintasse a vontade para trazer quaisquer nova tecnologia que julgar pertinente para o case apresentado, estamos de bracos abertos a novos conhecimentos 💚
 
 
 ## Definicao final de Entrega
-- [ ] Repositório no github com a infraestrutura
+- [ ] Repositório no github com a infraestrutura e a Aplicacao
 - [ ] Relatório da Entrega em Readme  
-- [ ] Motivo das tecnologias selecionadas
 - [ ] Endpoint acessivel da aplicação
